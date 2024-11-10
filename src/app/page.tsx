@@ -17,7 +17,7 @@ function Home() {
           <div className="content  ml-[17rem] pt-[4rem]   text-[#adb5bd]">
             <h1 className="font-serif font-extrabold text-[1.6rem] hover:scale-105 hover:text-[#f4d35e] cursor-pointer">
               {" "}
-              Hi!I'M IQRA AWAN
+              Hi!Me IQRA AWAN
             </h1>
             <br />
             <p className="font-serif text-[0.9rem] hover:text-[#faf0ca] hover:scale-x-105">
