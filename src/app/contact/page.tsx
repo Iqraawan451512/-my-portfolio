@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Footer from "../component/header/footer/footer";
 import Button from "../component/header/button/button";
-import { FaRegArrowAltCircleUp } from "react-icons/fa";
 
 function Contact() {
   return (
