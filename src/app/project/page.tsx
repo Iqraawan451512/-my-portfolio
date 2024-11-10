@@ -10,14 +10,14 @@ function Project() {
           <h1 className="Project text-[2rem] font-serif font-extrabold ml-12 text-[#ffba08]  hover:text-[#b56576] hover:underline   pt-9">
             Project
           </h1>
-          <p className="  text-[1rem] font-serif ml-[8rem] mt-4 text-balance text-[#caf0f8]">
-            'Explore my diverse portfolio, featuring projects that showcase my
+          <p className="text-[1rem] font-serif ml-[8rem] mt-4 text-balance text-[#caf0f8]">
+            Explore my diverse portfolio, featuring projects that showcase my
             web development expertise: utility tools (Calculator, BMI
             Calculator), interactive games (Guessing Game), productivity apps
             (To-Do List), dynamic forms, and secure finance simulations (ATM
             Card Number Generator). Built with HTML, CSS, JavaScript, React, and
             Node.js, these projects demonstrate my passion for innovative
-            problem-solving and user-centric design.'
+            problem-solving and user-centric design.
           </p>
           {/* project*/}
           <div className=" flex flex-wrap  gap-10 ml-[6rem] w-[60rem] mt-[2rem]">
@@ -27,7 +27,7 @@ function Project() {
                 alt="its a picture"
                 className="w-[18rem] h-[14rem] p-4  mt-4 rounded-[2rem]"
               />
-              <Link href="npm i one-simple-calculator" target='_blank'>
+              <Link href="npm i one-simple-calculator" target="_blank">
                 {" "}
                 <p className="text-[#432534] pb-3 pl-10">Calculater</p>
               </Link>
@@ -110,7 +110,7 @@ function Project() {
         </Link>
         </div>
         
-        <Footer />
+        <Footer/>
       </div>
     </main>
   );
