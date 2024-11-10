@@ -11,9 +11,9 @@ function Contact() {
             Contact
           </h1>
           <p className="text-balance w-[60rem] ml-[13rem] pt-[1rem] text-[1rem] hover:text-[#183a37] text-[#457b9d]  font-serif font-semibold">
-            I'M excited to collaborate with you! wheather you have a project in
+            I Am excited to collaborate with you! wheather you have a project in
             mind,want to discuss web development solutions,any accounting and
-            managnment problems or just want to say Hello, you May,I'M here to
+            managnment problems or just want to say Hello, you May,I am here to
             listen.
           </p>
         </div>
