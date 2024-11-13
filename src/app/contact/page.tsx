@@ -5,107 +5,91 @@ import Button from "../component/header/button/button";
 function Contact() {
   return (
     <main>
-      <div className=" bg-[#ade8f4]">
-        <div className="">
-          <h1 className=" pt-10 font-extrabold font-serif text-[2rem] pl-[13rem] hover:underline hover:text-[#db7c26] text-[#03045e]">
+      <div className="bg-[#ade8f4]">
+
+        {/* Header Section */}
+        <div className="text-center md:text-left">
+          <h1 className="pt-10 font-extrabold font-serif text-[2rem] md:text-[2.5rem] pl-4 md:pl-[13rem] hover:underline hover:text-[#db7c26] text-[#03045e]">
             Contact
           </h1>
-          <p className="text-balance w-[60rem] ml-[13rem] pt-[1rem] text-[1rem] hover:text-[#183a37] text-[#457b9d]  font-serif font-semibold">
-            I Am excited to collaborate with you! wheather you have a project in
-            mind,want to discuss web development solutions,any accounting and
-            managnment problems or just want to say Hello, you May,I am here to
-            listen.
+          <p className="text-balance w-full sm:w-[60rem] ml-4 sm:ml-[13rem] pt-[1rem] text-[1rem] hover:text-[#183a37] text-[#457b9d] font-serif font-semibold">
+            I am excited to collaborate with you! Whether you have a project in
+            mind, want to discuss web development solutions, any accounting and
+            management problems, or just want to say hello—I'm here to listen.
           </p>
         </div>
-        {/*div one */}
-        <div className="flex ">
-          <div className=" border-solid border-black w-[30rem]  h-[full] ">
-            <ul className=" one text-[#22333b] ml-[13rem] pt-[4rem] font-serif ">
+
+        {/* Main Content Section */}
+        <div className="flex flex-col md:flex-row mt-10 md:w-[70rem]">
+
+          {/* Contact Details */}
+          <div className=" one flex-1 md:w-[30rem] md:ml-[13rem] md:mr-10 p-4 bg-slate-200 rounded-lg shadow-lg">
+
+            <ul className="text-[#22333b] font-serif">
               <li className="pb-2">
-                <span className="font-bold text-[#00296b] cursor-pointer">
-                  ~ Phone:{" "}
-                </span>{" "}
-                <span className="col">+9203341437768</span>
+                <span className="font-bold text-[#00296b]">~ Phone: </span>
+                <span>+9203341437768</span>
               </li>
               <li className="pb-2">
-                <span className="font-bold text-[#00296b]"> ~ Email: </span>
-                <Link
-                  href="https://mail.google.com/mail"
-                  target="_blank"
-                  className="col"
-                >
-                  {" "}
-                  <br /> Iqraawan4512@gmail.com
+                <span className="font-bold text-[#00296b]">~ Email: </span>
+                <Link href="mailto:iqraawan4512@gmail.com" className="text-blue-500">
+                  Iqraawan4512@gmail.com
                 </Link>
               </li>
               <li className="pb-2">
-                <span className="font-bold text-[#00296b]"> ~ GitHub: </span>{" "}
-                <Link
-                  href="https://github.com/Iqraawan451512"
-                  target="_blank"
-                  className="col"
-                >
-                  {" "}
-                  Iqraawan451512@gmail.com
+                <span className="font-bold text-[#00296b]">~ GitHub: </span>
+                <Link href="https://github.com/Iqraawan451512" className="text-blue-500">
+                  Iqraawan451512
                 </Link>
               </li>
               <li className="pb-2">
-                <span className="font-bold text-[#00296b]"> ~ LinkedIn:</span>
-                <br />
-                <Link
-                  href="https://mail.google.com/mail/u/0/#inbox"
-                  className="col"
-                >
-                  {" "}
-                  iqraawan451512@gmail.com
+                <span className="font-bold text-[#00296b]">~ LinkedIn: </span>
+                <Link href="https://www.linkedin.com/in/iqraawan451512" className="text-blue-500">
+                  iqraawan451512
                 </Link>
               </li>
               <li className="pb-2">
-                <span className="font-bold text-[#00296b] mb-4">
-                  {" "}
-                  ~ Location:{" "}
-                </span>{" "}
+                <span className="font-bold text-[#00296b]">~ Location: </span>
                 Karachi
+              </li>
+              <li className="pb-2 mt-4">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d462118.02491053584!2d67.15546194999999!3d25.193202399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33e06651d4bbf%3A0x9cf92f44555a0c23!2sKarachi%2C%20Karachi%20City%2C%20Sindh!5e0!3m2!1sen!2s!4v1729687023809!5m2!1sen!2s"
-                  width="270"
+                  width="100%"
                   height="250"
                   style={{ border: 0 }}
-                  className="mt-5 rounded-md border-solid shadow-orange-300 cursor-pointer"
+                  className="rounded-md shadow-md"
+                  loading="lazy"
                 ></iframe>
               </li>
             </ul>
           </div>
 
-          {/*   div tow */}
-          <div className="  two  ml-[14rem] mt-[5rem]">
-            <div className="">
-              <p className="mt-14 font-serif pl-3 pb-2">your name</p>
-              <input
-                type="text"
-                placeholder=" "
-                className="w-[18rem] h-[2rem] rounded-lg required border-none pl-5 "
-              />
-              <p className="mt-2 font-serif pl-3 pb-2">subject</p>
-              <input
-                type="text"
-                placeholder=" "
-                className="w-[18rem] h-[2rem] rounded-lg required pl-5"
-              />
-              <p className="mt-2 font-serif pl-3 pb-2">Message</p>
-              <input
-                type="text"
-                placeholder=""
-                className="w-[18rem] h-[14rem] rounded-lg required pl-5 pb-[10rem]"
-              />
-              <br />
-              {/**   <input type="button" value="Send message" className="button" />*/}
+          {/* Contact Form */}
+          <div className=" two flex-1 md:w-[30rem] mt-8 md:mt-0 p-4 bg-slate-200 rounded-lg shadow-lg ml-0 md:ml-[2rem]">
 
+            <div>
+              <label className="font-serif pl-3 pb-2 text-[1rem]">Your Name</label>
+              <input
+                type="text"
+                placeholder="Enter your name"
+                className=" w-full h-[2.5rem] rounded-lg border-x-indigo-300 pl-5 mb-4"
+              />
+              <label className="font-serif pl-3 pb-2 text-[1rem]">Subject</label>
+              <input
+                type="text"
+                placeholder="Enter subject"
+                className="w-full h-[2.5rem] rounded-lg border-none pl-5 mb-4"
+              />
+              <label className="font-serif pl-3 pb-2 text-[1rem]">Message</label>
+              <textarea
+                placeholder="Enter your message"
+                className="w-full h-[10rem] rounded-lg border-none pl-5 mb-4 resize-none"
+              ></textarea>
               <Button text="Send message" />
             </div>
           </div>
-          
-          
+
         </div>
 
         <Footer />
@@ -113,4 +97,5 @@ function Contact() {
     </main>
   );
 }
+
 export default Contact;
